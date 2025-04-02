@@ -26,7 +26,7 @@ const Header = () => {
     <header className={`header shadow-[inset_0px_4px_94px_0px_#565656] h-[91px] flex items-center fixed top-0 right-0 left-0 z-50 px-5 w-full transition-colors duration-300 ${ isScrolled ? 'bg-white/100 shadow-[inset_0px_4px_94px_0px_#fff] border-b border-black/10' : 'bg-white/57'}`}>
       <nav className="container flex justify-between items-center">
         <Link to="/">
-          <img src="/images/logo.svg" className="w-32" alt="LEAP Logo" />
+          <img src="/images/logo.svg" className="w-20" alt="LEAP Logo" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -36,7 +36,7 @@ const Header = () => {
           className={({ isActive }) => 
             `text-sm font-medium font-poppins ${
               isActive 
-                ? 'text-[#008000]'
+                ? 'text-[#78A07C]'
                 : isScrolled 
                   ? 'text-black'
                   : 'text-white'
@@ -50,7 +50,7 @@ const Header = () => {
           className={({ isActive }) => 
             `text-sm font-medium font-poppins ${
               isActive 
-                ? 'text-[#008000]'
+                ? 'text-[#78A07C]'
                 : isScrolled 
                   ? 'text-black'
                   : 'text-white'
@@ -64,7 +64,7 @@ const Header = () => {
           className={({ isActive }) => 
             `text-sm font-medium font-poppins ${
               isActive 
-                ? 'text-[#008000]'
+                ? 'text-[#78A07C]'
                 : isScrolled 
                   ? 'text-black'
                   : 'text-white'
@@ -96,7 +96,7 @@ const Header = () => {
           <NavLink 
             to="/" 
             className={({ isActive }) => 
-              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#008000]' : 'text-black'}`
+              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#78A07C]' : 'text-black'}`
             }
             onClick={() => setIsMenuOpen(false)}
           >
@@ -105,7 +105,7 @@ const Header = () => {
           <NavLink 
             to="/about" 
             className={({ isActive }) => 
-              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#008000]' : 'text-black'}`
+              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#78A07C]' : 'text-black'}`
             }
             onClick={() => setIsMenuOpen(false)}
           >
@@ -114,7 +114,7 @@ const Header = () => {
           <NavLink 
             to="/success-stories" 
             className={({ isActive }) => 
-              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#008000]' : 'text-black'}`
+              `text-sm font-medium font-poppins px-4 py-2 ${isActive ? 'text-[#78A07C]' : 'text-black'}`
             }
             onClick={() => setIsMenuOpen(false)}
           >

@@ -38,7 +38,7 @@ const Home = () => {
                                 </div>
                                 <div className="p-4 bg-[#F5F7FA] shadow-[0px_8px_16px_0px_#ABBED166] rounded-lg text-center absolute top-[75%] mx-6 min-h-[168px]">
                                 <h3 className="text-xl leading-7 text-[#242424] font-semibold">{story.title}</h3>
-                                <Link  to={`/stories/${story.id}`} className="flex items-center gap-2 justify-center mt-6"><p className="text-xl leading-7 text-[#008000] font-poppins font-semibold">Readmore</p><img src="/images/arrow-right-green.svg" alt="Arrow Right Green" /></Link>
+                                <Link  to={`/stories/${story.id}`} className="flex items-center gap-2 justify-center mt-6"><p className="text-xl leading-7 text-[#78A07C] font-poppins font-semibold">Readmore</p><img src="/images/arrow-right-green.svg" alt="Arrow Right Green" /></Link>
                                 </div>
                             </div>
                         ))}

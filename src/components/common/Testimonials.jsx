@@ -10,7 +10,7 @@ const NextArrow = (props) => {
         style={{ ...style }}
         onClick={onClick}
       >
-        <button className="bg-white shadow-md absolute top-[45%] -translate-y-1/2 bottom-0  rounded-full cursor-pointer w-12 h-12 flex items-center justify-center">
+        <button className="bg-[#78A07C] shadow-md absolute top-[45%] -translate-y-1/2 bottom-0  rounded-full cursor-pointer w-12 h-12 flex items-center justify-center">
          
           <img src="/images/arrow-right.svg" alt="Arrow Right" />
         </button>
@@ -25,7 +25,7 @@ const NextArrow = (props) => {
         style={{ ...style }}
         onClick={onClick}
       >
-        <button className="bg-white shadow-md absolute top-[45%] -translate-y-1/2 bottom-0 rounded-full cursor-pointer w-12 h-12 flex items-center justify-center">
+        <button className="bg-[#78A07C] shadow-md absolute top-[45%] -translate-y-1/2 bottom-0 rounded-full cursor-pointer w-12 h-12 flex items-center justify-center">
           <img src="/images/arrow-left.svg" alt="Arrow Left" />
         </button>
       </div>
@@ -89,7 +89,7 @@ function Testimonials() {
       };
   return (
     <div className="container py-20 max-xl:px-5 max-sm:py-10">
-    <h2 className="text-3xl inline-block font-poppins font-bold relative">What do people <b className="text-[#FF395B]">say about LEAP?</b><span className="absolute -bottom-2 right-0 left-0 h-[3px] w-[75%] bg-[#101010]
+    <h2 className="text-3xl inline-block font-poppins font-bold relative">What do people <b className="text-[#C12323]">say about LEAP?</b><span className="absolute -bottom-2 right-0 left-0 h-[3px] w-[75%] bg-[#101010]
     "></span></h2>
     <div className="mt-25">
     <Slider {...settings}>

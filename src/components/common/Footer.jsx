@@ -6,7 +6,7 @@ const Footer = () => {
      <div className="container">
       <div className="grid grid-cols-12 max-md:gap-5 items-start">
         <div className="col-span-6 max-md:col-span-12 max-w-[80%]">
-          <h3 className="text-4xl text-black font-lalezar"><b className="text-[#008000]">LEAP</b> Across Borders</h3>
+          <img src="/images/logo.svg" className="w-20" alt="LEAP Logo" />
           <p className="mt-5 text-sm text-black leading-6 font-poppins">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  sed do eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  sed do eiusmod.</p>
         </div>
         <div className="col-span-3 max-md:col-span-12">

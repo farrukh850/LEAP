@@ -17,7 +17,7 @@ const Home = () => {
       <div className="pt-20 pb-48 bg-[#F8F8F8] max-xl:px-5 max-lg:pt-10">
         <div className="container">
           <div className="flex justify-center">
-            <h2 className="text-3xl inline-block mx-auto font-poppins font-bold relative text-center">Success <b className="text-[#FF395B]">Stories</b><span className="absolute -bottom-2 right-0 left-1/2 -translate-x-1/2 h-[3px] w-[60%] bg-[#101010]"></span></h2>
+            <h2 className="text-3xl inline-block mx-auto font-poppins font-bold relative text-center">Success <b className="text-[#C12323]">Stories</b><span className="absolute -bottom-2 right-0 left-1/2 -translate-x-1/2 h-[3px] w-[60%] bg-[#101010]"></span></h2>
           </div>
           <div className="grid grid-cols-12 max-lg:space-y-28 gap-6 mt-12">
             {stories.map(story => (
@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
                 <div className="p-4 bg-[#F5F7FA] shadow-[0px_8px_16px_0px_#ABBED166] rounded-lg text-center absolute top-[75%] mx-6 min-h-[168px]">
                   <h3 className="text-xl leading-7 text-[#242424] font-semibold">{story.title}</h3>
-                  <Link  to={`/stories/${story.id}`} className="flex items-center gap-2 justify-center mt-6"><p className="text-xl leading-7 text-[#008000] font-poppins font-semibold">Readmore</p><img src="/images/arrow-right-green.svg" alt="Arrow Right Green" /></Link>
+                  <Link  to={`/stories/${story.id}`} className="flex items-center gap-2 justify-center mt-6"><p className="text-xl leading-7 text-[#78A07C] font-poppins font-semibold">Readmore</p><img src="/images/arrow-right-green.svg" alt="Arrow Right Green" /></Link>
                 </div>
               </div>
             ))}
