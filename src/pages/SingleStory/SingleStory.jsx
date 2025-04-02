@@ -14,7 +14,7 @@ const Home = () => {
         <>
             <div className="bg-[url('/images/inner-banner.png')] bg-no-repeat bg-center bg-cover lg:h-screen max-lg:h-96 max-lg:px-5">
                 <div className="container">
-                    <div className="flex flex-col items-center justify-center text-center lg:h-screen max-w-[635px] mx-auto max-lg:h-96">
+                    <div className="flex flex-col items-center justify-center text-center lg:h-screen max-w-[911px] mx-auto max-lg:h-96">
                         <h1 className="text-5xl max-lg:text-3xl max-lg:leading-10 text-white leading-16 font-poppins font-bold">{story.title}</h1>
                     </div>
                 </div>
